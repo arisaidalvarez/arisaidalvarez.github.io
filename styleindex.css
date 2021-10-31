@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    /*border: 1px solid yellowgreen;*/
+    display: flex;
+    padding: 2em 0;
+    justify-content: center;
+}
+
+.index {
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+}
+
+/*.image {
+    border: 2px solid blue;
+}*/
+
+.navmenu {
+    /*border: 2px solid green;*/
+    margin: auto;
+    margin-top: 7%;
+    list-style-type: none;
+/* Of particular interest is none, which is commonly used when marking 
+up menu navigation with a <ul> list. The none value allows the menu’s 
+list items to be styled more like buttons. */
+}
+
+.navmenu > li {
+    text-align: center;
+    /*border: 1px solid black;*/
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 00.5em;
+    border-radius: 0.5em;
+}
+
+.navmenu > li > a {
+    text-decoration: none;
+/* The text-decoration property determines whether text is underlined or not. 
+By setting it to none, we can remove the default underline from all of our links. */  
+}
+
+.button {
+    color: gray;
+    /*background-color: grey;*/
+    /*border: 1px solid black;*/
+    padding: 0.5em;
+    margin: 00.5em;
+    border-radius: 0.5em;
+}
+
+.button:hover, .button:visited:hover {
+    opacity: 0.5;
+}
+
+.button:active, .button:visited:active {
+    opacity: 1;
+    color: #FF792A;
+    
+}
+
+.button:visited {
+    color: gray;
+}
