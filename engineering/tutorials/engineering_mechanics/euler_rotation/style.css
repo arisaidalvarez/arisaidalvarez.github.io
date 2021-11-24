@@ -5,16 +5,17 @@
 }
 
 #header {
-    /* background-color: lightcyan; */
+    background-color: white;
+    height: 50px;
     position: fixed;
     width: 100%;
-}
-
-#navH {
-    /* background-color: lightgoldenrodyellow; */
     display: flex;
     justify-content: center;
 }
+
+#navH {
+    background-color: lightgoldenrodyellow;
+} 
 
 #main {
     box-sizing: content-box;
@@ -65,7 +66,6 @@ a:active, a:visited:active {
 
 #footer {
     background-color: white;
-    height: 100px;
     text-align: center;
 }
 

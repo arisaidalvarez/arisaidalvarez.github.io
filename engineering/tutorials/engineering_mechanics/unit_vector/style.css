@@ -13,13 +13,9 @@
     justify-content: center;
 }
 
-/* #navH {
+#navH {
     background-color: lightgoldenrodyellow;
-    position: fixed;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-} */
+} 
 
 #main {
     box-sizing: content-box;
@@ -70,7 +66,6 @@ a:active, a:visited:active {
 
 #footer {
     background-color: white;
-    height: 100px;
     text-align: center;
 }
 
