@@ -5,16 +5,21 @@
 }
 
 #header {
-    /* background-color: lightcyan; */
+    background-color: white;
+    height: 50px;
     position: fixed;
     width: 100%;
-}
-
-#navH {
-    /* background-color: lightgoldenrodyellow; */
     display: flex;
     justify-content: center;
 }
+
+/* #navH {
+    background-color: lightgoldenrodyellow;
+    position: fixed;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+} */
 
 #main {
     box-sizing: content-box;
