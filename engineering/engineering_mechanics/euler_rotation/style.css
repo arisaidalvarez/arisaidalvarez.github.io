@@ -65,6 +65,7 @@ a:active, a:visited:active {
 }
 
 #footer {
+    padding-top: 25px;
     background-color: white;
     text-align: center;
 }
