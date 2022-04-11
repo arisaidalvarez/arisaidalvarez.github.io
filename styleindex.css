@@ -68,3 +68,19 @@ By setting it to none, we can remove the default underline from all of our links
 .button:visited {
     color: gray;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 960px) {
+
+    .index {
+
+        flex-wrap: wrap;
+        
+    }
+
+    #my-svg {
+
+        width: 100%;
+
+    }
+    
+}
