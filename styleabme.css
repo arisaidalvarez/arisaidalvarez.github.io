@@ -107,3 +107,27 @@ ul {
     height: 100px;
     text-align: center;
 }
+
+/**************************************************************************/
+
+@media only screen and (min-width: 200px) and (max-width: 960px) {
+
+    p {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .image {
+
+        width: 100%;
+
+    }
+
+    .article {
+
+        flex-wrap: wrap;
+
+    }
+
+}
