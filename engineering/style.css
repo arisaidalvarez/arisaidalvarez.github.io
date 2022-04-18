@@ -71,3 +71,34 @@ ul {
 h1 {
     color: #FF792A;
 }
+
+/* ******************************************************************* */
+
+
+@media only screen and (min-width: 200px) and (max-width: 960px) {
+
+    li {
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    #main {
+
+        display: block;
+
+        text-align: center;
+
+    }
+
+    #engindex {
+
+        padding-top: 40px;
+        padding-bottom: 50px;
+
+    }
+
+}
+
+
