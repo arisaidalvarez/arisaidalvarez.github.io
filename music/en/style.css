@@ -84,3 +84,29 @@ h1 {
     text-align: center;
     font-style: italic;
 }
+
+/* *************************************************************** */
+
+@media only screen and (min-width: 200px) and (max-width: 960px) {
+
+    #navA {
+
+        position: static;
+
+        margin: 0 auto;
+
+    }
+
+    #main {
+
+        display: block;
+
+    }
+
+    #aside {
+
+        width: auto;
+
+    }
+
+}
